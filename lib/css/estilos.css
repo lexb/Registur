@@ -1,0 +1,73 @@
+.tabla1{
+	position: relative;
+	width: 70%;
+	height: 100%;
+	margin-top: 2%;
+	text-align: right;
+  	background: rgba(100, 100, 100, 0.40);
+}
+
+
+button.button {
+	background: #388891;
+	border: none;
+	padding: 10px 50px;
+	font-size: 1em;
+	color: #FFF;
+	display: block;
+	margin: 20px 2% 0px auto;
+	cursor: pointer;
+	font: inherit;
+}
+
+input.textinput {
+	text-align: center;
+    background: none;
+    border: 0;
+    border-bottom: 2px dashed #00FFFF;
+    font-size: 28px;
+    color: #00FFFF;
+    font: inherit;
+}
+
+input.textinput:focus {
+    outline: none;
+    border-bottom: 2px dashed #FFF;
+}
+select.dropdown {
+    font-size: 28px;
+    color: #00FFFF;
+    border: none;
+    border-bottom: 2px dashed #00FFFF;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: none;
+    text-indent: 0.01px;
+    text-overflow: "";
+    box-shadow: none;
+    font: inherit;
+}
+select.dropdown:focus {
+    outline: none;
+    border-bottom: 2px dashed #FFF;
+}
+
+div .contenedor{
+	background: rgba(100, 100, 100, 0.40);
+	margin-top: 2%;
+}
+::-webkit-input-placeholder {
+   color: #00FFFF;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #00FFFF;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #00FFFF;  
+}
+
+:-ms-input-placeholder {  
+   color: #00FFFF;  
+}
